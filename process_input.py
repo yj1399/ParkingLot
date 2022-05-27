@@ -44,7 +44,7 @@ def process(command_params):
     else:
         raise Exception("Wrong command")
 
-
+sys.stdout = open('output.txt', 'wt')
 if len(sys.argv) == 1:
     while True:
         line = input()
