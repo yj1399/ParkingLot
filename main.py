@@ -20,7 +20,7 @@ def process(command_params):
         parking_lot.create_parking_lot(int(command_with_params[1]))
 
     elif command == 'Park':
-        assert len(command_with_params) == 4, "Park needs registration number and color as well"
+        assert len(command_with_params) == 4, "Park needs registration number and driver_age as well"
         car = Car(command_with_params[1], command_with_params[3])
         parking_lot.park(car)
 
@@ -31,11 +31,11 @@ def process(command_params):
         parking_lot.leave(int(command_with_params[1]))
 
     elif command == 'Vehicle_registration_number_for_driver_of_age':
-        assert len(command_with_params) == 2, "Registration_numbers_for_cars_with_colour needs color as well"
+        assert len(command_with_params) == 2, "Registration_numbers_for_cars_with_driver_age needs driver_age as well"
         parking_lot.registration_numbers_for_cars_with_driver_age(command_with_params[1])
 
     elif command == 'Slot_numbers_for_driver_of_age':
-        assert len(command_with_params) == 2, "Slot_numbers_for_cars_with_colour needs color as well"
+        assert len(command_with_params) == 2, "Slot_numbers_for_cars_with_driver_age needs driver_age as well"
         parking_lot.slot_numbers_for_cars_with_driver_age(command_with_params[1])
 
     elif command == 'Slot_number_for_car_with_number':
