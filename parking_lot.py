@@ -37,7 +37,7 @@ class ParkingLot:
         :return Nothing:
         """
         # Using min heap as this will always give minimum slot number in O(1) time
-        print("Created a parking lot with {} slots".format(total_slots))
+        print("Created parking of {} slots".format(total_slots))
         for i in range(1, total_slots + 1):
             heapq.heappush(self.available_parking_lots, i)
         return True
@@ -70,7 +70,7 @@ class ParkingLot:
                 car_to_leave.driver_age].remove(found)
             del self.slot_car_mapping[slot_to_be_freed]
             print(
-                f"Slot number {slot_to_be_freed} vacated, the car with vehicle registration number {car_to_leave.registration_number} left the space, the driver of the car was of age {car_to_leave.driver_age}"
+                f'Slot number {slot_to_be_freed} vacated, the car with vehicle registration number "{car_to_leave.registration_number}" left the space, the driver of the car was of age {car_to_leave.driver_age}'
             )
             return True
 
@@ -89,7 +89,7 @@ class ParkingLot:
             print("Sorry, parking lot is full")
             return
         print(
-            f"Car with vehicle registration number {car.registration_number} has been parked at slot number {slot_no}"
+            f'Car with vehicle registration number "{car.registration_number}" has been parked at slot number {slot_no}'
         )
         self.slot_car_mapping[slot_no] = car
         self.registration_slot_mapping[car.registration_number] = slot_no
@@ -119,7 +119,7 @@ class ParkingLot:
             self.registration_slot_mapping[reg_no]
             for reg_no in registration_numbers
         ]
-        print(", ".join(map(str, slots)))
+        print(",".join(map(str, slots)))
         return slots
 
     def slot_number_for_registration_number(self, registration_number):

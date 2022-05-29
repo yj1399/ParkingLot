@@ -11,11 +11,10 @@ def process(command_params):
     """
     This Method process the input File
     :param command_params:
-    :return:
+    :return None:
     """
     command_with_params = command_params.strip().split(' ')
     command = command_with_params[0]
-
     if command == 'Create_parking_lot':
         assert len(command_with_params) == 2, "Create_parking_lot needs no of slots as well"
         assert command_with_params[1].isdigit() is True, "param should be 'integer type'"
