@@ -1,18 +1,25 @@
 # ParkingLot
 <p> This Repo Contains Implementation of Parking-Lot System . This is being developed using Python </p> 
+There are two Script : 
 <br> 
+<ol> 
+<li > app.py This is the Main Script inside which Logic to parse input file has been written also object of ParkingLot Class is created </li> 
+<br> 
+<li> parking_lot.py  This Script contain Logic of all function implemented within a class </li> 
+ </ol> 
 
+<h4>
+<ul>
+<li> For Running the Script one should run app.py with input-file . Output file will be created </li>
+  <li> It can also be run without input file for that one should provide all commands from Shell </li> 
+</h4> 
+ </ul> 
 <br>
 <h2> Project Structure </h2> 
 <br> 
 
 <img width="258" alt="Screenshot 2022-05-29 at 3 54 11 PM" src="https://user-images.githubusercontent.com/40159239/170863771-2b1a92c8-7994-4b37-b720-81279bd1c680.png">
 
-parking_lot.py -> Parking Lot Class is Implemented inside it 
-<br> 
-app.py -> Main Script 
-
-<br> 
 <br> 
 
 <h2> Running Parking Lot System : </h2> 
