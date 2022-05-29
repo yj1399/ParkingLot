@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-import fileinput
 import sys
 # Importing ParkingLot Class from parking_lot
 from parking_lot import ParkingLot, Car
@@ -52,10 +51,6 @@ def process(command_params):
 if __name__ == "__main__":
     # Opening Output File where all Output will be saved
     sys.stdout = open('output.txt', 'wt')
-    if len(sys.argv) == 1:
-        while True:
-            line = input()
-            process(line)
-    else:
-        for line in fileinput.input():
-            process(line)
+    sys.stdin = open('command.txt' , "r")
+    for line in sys.stdin:
+      process(line)
