@@ -49,8 +49,6 @@ def process(command_params):
 
 
 if __name__ == "__main__":
-    # Opening Output File where all Output will be saved
-    sys.stdout = open('output.txt', 'wt')
     sys.stdin = open('input.txt' , "r")
     for line in sys.stdin:
       process(line)

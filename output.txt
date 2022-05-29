@@ -1,2 +1,0 @@
-Created parking of 6 slots
-Car with vehicle registration number "KA-01-HH-1234" has been parked at slot number 1
