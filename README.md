@@ -10,8 +10,11 @@ There are two Script :
 
 <h4>
 <ul>
-<li>   For Running the Script one should run main.py . Output file will be created </li>
+<li>   For Running the Script one should run main.py ( python3 main.py )  . Output file will be displyed on Console  </li>
 
+<h3> OR </h3>
+
+<h3> RUN USING REPEL RUN OPTION </h3> 
 </h4> 
  </ul> 
 <br>
