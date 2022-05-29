@@ -6,7 +6,7 @@ from parking_lot import ParkingLot, Car
 parking_lot = ParkingLot()
 
 
-def process(command_params):
+def input_parse(command_params):
     """
     This Method process the input File
     :param command_params:
@@ -51,4 +51,4 @@ def process(command_params):
 if __name__ == "__main__":
     sys.stdin = open('input.txt' , "r")
     for line in sys.stdin:
-      process(line)
+      input_parse(line)
