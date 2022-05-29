@@ -25,16 +25,4 @@ There are two Script :
 
 
 
-<h2> Running it From Shell </h2> 
-<ul>
- <li> STEP 1 : <br> 
-  
-
-</li> 
- 
- <li> STEP 2 : <br> 
-  
-  
- </li> 
-
 
