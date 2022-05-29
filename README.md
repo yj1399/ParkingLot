@@ -11,7 +11,7 @@ There are two Script :
 <h4>
 <ul>
 <li>   For Running the Script one should run main.py . Output file will be created </li>
-  <li> It can also be run without input file for that one should provide all commands from Shell </li> 
+
 </h4> 
  </ul> 
 <br>
