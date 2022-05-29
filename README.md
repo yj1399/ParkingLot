@@ -27,5 +27,10 @@ There are two Script :
 
 
 
+<h2 > OUTPUT : </h2> 
+
+<img width="1391" alt="Screenshot 2022-05-29 at 6 09 30 PM" src="https://user-images.githubusercontent.com/40159239/170868923-efd91bef-80df-4e3b-bcdb-d393d335fd3f.png">
+
+
 
 
